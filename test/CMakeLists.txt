@@ -9,8 +9,8 @@ include_directories(${DIVISION_HEADERS_DIR})
 include_directories(${HELLO_GOOGLETEST_DIR}/include)
 
 
-set(SOURCE_FILES main.cpp
-				 src/divider_tests.cpp
+set(SOURCE_FILES main.cc
+				 src/divider_tests.cc
 )
 
 add_executable(divider_tests ${SOURCE_FILES})

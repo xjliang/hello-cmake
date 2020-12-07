@@ -3,7 +3,7 @@ project(division C CXX)
 
 set(SOURCE_FILES
     division.h
-    division.cpp
+    division.cc
 )
 
 add_library(division SHARED STATIC ${SOURCE_FILES})
