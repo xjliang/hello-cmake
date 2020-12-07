@@ -154,7 +154,7 @@ if(HELLO_BUILD_EXAMPLES)
 endif(HELLO_BUILD_EXAMPLES)
 
 include_directories(${DIVISIBLE_INSTALL_INCLUDE_DIR})
-#include_directories(${DIVISION_HEADERS_DIR})
+include_directories(${DIVISION_HEADERS_DIR})
 
 add_subdirectory(src)
 
